@@ -53,7 +53,7 @@ const LiveChat = () => {
         }}
       >
         <input
-          className="px-2 w-96"
+          className="px-1 w-72"
           type="text"
           value={liveMessage}
           onChange={(e) => {

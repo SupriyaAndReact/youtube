@@ -4,7 +4,7 @@ const VideoCard =({info})=>{
 
     console.log(info, 'snippet inform')
     return (
-        <div className="p-2 m-2 w-52 shadow-lg">
+        <div className="p-2 m-2 w-64 shadow-lg">
             <img alt="thumbnail" src={thumbnails.medium.url} className="rounded-lg"/>
             <ul>
                 <li className="font-bold py-2">{title}</li>

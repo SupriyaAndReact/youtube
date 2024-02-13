@@ -9,19 +9,33 @@ const Sidebar =() => {
 
     return <div className="w-60 shadow-lg p-5">
         <ul>
-        <li>
+        <li className="mb-1">
             <Link to="/">🏠 Home</Link>
-        </li>    
-        <li>🎶  Shorts</li>
-        <li>📻 Subscriptions</li>
+        </li >    
+        <li className="mb-1">🎶  Shorts</li>
+        <li className="mb-3">🎬 Subscriptions</li>
         </ul>
-        <h1 className="">You {">"}</h1>
+        <hr/>
         <ul>
-        <li>🎤 Your Channel</li>
-        <li>🕜  History</li>
-        <li>📻 Your videos</li>
-        <li> ⌚ Watch later</li>
-        <li>👍 Liked videos</li>
+        <li className="mt-3">📚 Library</li>
+        <li className="mb-1">🕜  History</li>
+        <li className="mb-1">📻 Watch later</li>
+        <li className="mb-3"> 👍 Liked videos</li>
+        </ul>
+        <hr/>
+        <ul>
+        <li className="mt-3">🎤 Music</li>
+        <li className="mb-1">🏏  Sports</li>
+        <li className="mb-1">🎮 Gaming</li>
+        <li className="mb-3"> 🎥 Movies</li>
+        </ul>
+        <hr/>
+        <ul>
+        <li className="mt-3">🎤 Trending</li>
+        <li className="mb-1">🛒  Shopping</li>
+        <li className="mb-1">📺 Live</li>
+        <li className="mb-1"> 📰 News</li>
+        <li className="mb-3"> 📔 Learning</li>
         </ul>
     </div>
 }
